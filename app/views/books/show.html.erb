@@ -1,1 +1,10 @@
-<h1>作れ</h1>
+<div class="show">
+  <p>
+    <span class="bold">Title: </span><%= @book.title %>
+  </p>
+  <p>
+    <span class="bold">Body: </span><%= @book.body %>
+  </p>
+</div>
+
+<span>|</span><%= link_to "Back", :back %>
