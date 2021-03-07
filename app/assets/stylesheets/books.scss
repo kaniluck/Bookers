@@ -12,8 +12,12 @@
   font-weight: bold;
 }
 
-.show {
+.show, .edit {
   margin: 20px;
+}
+
+.show-link, .edit-link {
+  margin-left: 25px;
 }
 
 table {

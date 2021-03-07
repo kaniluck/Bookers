@@ -6,5 +6,6 @@
     <span class="bold">Body: </span><%= @book.body %>
   </p>
 </div>
-
-<span>|</span><%= link_to "Back", :back %>
+<div class="show-link">
+<%= link_to "Edit", edit_book_path(@book.id) %><span> | </span><%= link_to "Back", books_path %>
+</div>
